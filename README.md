@@ -27,3 +27,14 @@ This is a Discord bot that listens for the "!save" command in a message and save
 
 To start the bot, run the following command in your terminal:
 
+```
+python ThatsAKeeper.py --token <your bot token> --channel <target channel ID>
+```
+
+The `--token` and `--channel` options are optional. If they are not provided, the values in the `config.ini` file will be used.
+
+Other options:
+
+- `--debug`: Enable debug messages.
+
+To stop the bot, press `Ctrl+C` in the terminal. 
